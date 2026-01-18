@@ -6,5 +6,5 @@ export interface Card {
 export interface Column {
   id: string;
   title: string;
-  card: Card[];
+  cards: Card[];
 }
